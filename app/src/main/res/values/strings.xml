@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assessment</string>
+    <string name="description">Description:</string>
+    <string name="all_books">All Books</string>
+    <string name="single_book">Single Book</string>
+    <string name="id">ID:</string>
+    <string name="author">Author:</string>
+    <string name="title">Title:</string>
+    <string name="isbn">ISBN:</string>
+    <string name="price">Price:</string>
+    <string name="description_of_the_selected_book">Description of the selected book:</string>
+    <string name="there_is_no_description_currently_available">There is no description currently available.</string>
+    <string name="currency_code">Currency Code:</string>
+    <string name="enter_the_id_of_the_requested_book">Enter the id of the requested book</string>
+    <string name="code">Code:</string>
+    <string name="prices">Price</string>
+</resources>

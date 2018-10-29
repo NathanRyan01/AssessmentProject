@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/allBooksBtn"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="allBooksBtnClick"
+        android:text="@string/all_books"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/singleBookBtn"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_button"
+        android:onClick="singlebookBtnClick"
+        android:text="@string/single_book"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="297dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="141dp"
+        android:background="@android:color/white"
+        android:color="@android:color/holo_green_dark"
+        android:ems="10"
+        android:hint="@string/enter_the_id_of_the_requested_book"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/black"
+        android:textStyle="bold"
+        tools:textColorHighlight="@android:color/black"
+        tools:textColorHint="@android:color/black" />
+
+
+</RelativeLayout>
